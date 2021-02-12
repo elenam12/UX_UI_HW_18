@@ -1,0 +1,122 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:50%;
+  padding: 1%;
+}
+
+li {
+  display: inline;
+}
+
+nav {
+display: inline-block;
+vertical-align: top;
+width: 100%;
+padding: 1%;
+text-align: center;
+}
+.logo {
+  text-align:center;
+
+
+}
+.heroimg {
+  height:600px;
+  padding:25px;
+  text-align: center;
+
+}
+
+  ul {
+    display:inline-block;
+  }
+    
+  
+  
+  
+
+  h1 {
+    text-align: center;
+    color: black;
+  }
+
+
+
+  .item3 > h1 {
+    text-align: center;
+    color: black;
+  }
+ 
+  p {
+    
+    text-align: left;
+    color: black;
+    padding: 35px;
+  }
+  .flexContainer {
+    display:flex
+
+}
+h3 {
+  text-align: center;
+  color: black;
+
+}
+.button {
+  background-color: white; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: grey;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: #eeeeee;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+
+
+.Section {
+    grid-area: myArea;
+}
+.workGrid {
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+@media only screen and (max-width: 600px) {
+  body { 
+    background-color: #F7F4F0;
+
+  }
+  .flexContainer{
+    display: column;
+    width:100%;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "User Research" 
+    "User Interface Design" 
+    "Web Development";
+  }
+}
+.column {
+  text-align:center;
+}
